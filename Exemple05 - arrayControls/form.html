@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <form method="POST" action="processaPost.php">
+                llista:<br>
+                <select name="llista[]" size="3" multiple="multiple">
+                    <option value="1" selected="selected">Opció 1</option>
+                    <option value="2">Opció 2</option>
+                    <option value="3" selected="selected">Opció 3</option>        
+                </select>
+                <br>
+                casella:<br>
+                <input type="checkbox" name="casella[]" value="Un"/>
+                <input type="checkbox" name="casella[]" value="Dos" checked /> 
+                <input type="checkbox" name="casella[]" value="Tres" checked />
+                <br>
+                caixa:<br>
+                <input type="text" name="caixa[]" value="One" />
+                <input type="text" name="caixa[]" />
+                <input type="text" name="caixa[]" value="Three"/>
+                <br>
+                <button type="submit" name="boto" value="enviat">Enviar</button>                
+            </form> 
+            
+        </div>
+    </body>
+</html>

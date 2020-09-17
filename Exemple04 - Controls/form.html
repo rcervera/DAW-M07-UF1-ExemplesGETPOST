@@ -1,0 +1,58 @@
+
+<html>
+    <head>
+        <title>Proves Diferents Controls</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            
+            <form method="POST" action="processaPost.php">
+                texts                
+                <input type="text" name="caixatext1" />
+                <input type="text" name="caixatext2" value="eoooo" />
+                <br>passwords
+                <input type="password" name="caixapassword1" />
+                <input type="password" name="caixapassword2" value="hola" />
+                <br> textareas
+                <textarea rows="4" cols="20" name="areadetext1"></textarea>
+                <textarea rows="4" cols="20" name="areadetext2">Un text llarg....</textarea>
+                <br> checkboxs
+                <input type="checkbox" name="casella1" />
+                <input type="checkbox" name="casella2" checked /> 
+                <input type="checkbox" name="casella3" value="Tres" />
+                <br> radios
+                Sense valors
+                <input type="radio" name="radio1" />
+                <input type="radio" name="radio1" />
+                Amb valors
+                <input type="radio" name="radio2" value="Un" />
+                <input type="radio" name="radio2" value="Dos" />
+                <br> Selects
+                Sense valors
+                <select name="menu1">
+                     <option>Opció 1</option>
+                     <option>Opció 2</option>
+                </select>
+                Amb valors
+                <select name="menu2">
+                    <option value="Un">Opció 1</option>
+                    <option value="Dos">Opció 2</option>
+                </select>
+                <br>Hidden
+                <input type="hidden" name="ocult1" value="eooo" />
+                
+                <br> Submit button
+                <button type="submit">Enviar1</button>
+                <button type="submit" name="boto2">Enviar2</button>
+                <button type="submit" name="boto3" value="enviat">Enviar3</button>
+                
+                
+                
+            </form>
+            
+            
+        </div>
+    </body>
+</html>
